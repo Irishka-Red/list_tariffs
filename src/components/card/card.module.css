@@ -1,0 +1,38 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.title{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:large;
+    border: 1px solid black;
+}
+.money{
+    justify-content: center;
+    font-size:large;
+    font-weight: 700;
+}
+.text1{
+    font-weight: 700; 
+}
+.blue{
+    background-color: cadetblue;
+}
+.green{
+    background-color: forestgreen;
+}
+.red{
+    background-color: indianred;
+}
+.grey{
+    background-color: darkgray;
+}
+.size1{
+    height: 350px;
+}
+.size2{
+    height: 400px;
+}

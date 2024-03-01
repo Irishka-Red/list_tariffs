@@ -1,0 +1,7 @@
+.cardlist{
+    display:flex;
+    flex-direction: row;
+    width:60vw;
+    height: 50vh;
+    margin:5rem auto;
+}
