@@ -1,11 +1,18 @@
 import React from 'react'
 import styles from './card.module.css'
+import {useState} from 'react'
+
 function Card(props){
     const color = props.color;
     const size = props.size;
     console.log(color);
+    const [clicked, setClicked] = useState(false)
+    const handleClickedState = () =>{
+        setClicked(!clicked)
+    };
     return(
-        <div className={`${styles.card} ${styles[size]}`}>
+        <div onClick = {handleClickedState} 
+        className={clicked? `${styles.card} ${styles[size]} ${styles.increasecard}`: `${styles.card} ${styles[size]}` }>
             <div className={`${styles.title} ${styles[color]}`}>
             <h2 className="card-title">{props.title}</h2>
             </div>

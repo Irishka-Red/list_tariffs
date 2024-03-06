@@ -36,3 +36,6 @@
 .size2{
     height: 400px;
 }
+.increasecard{
+    transform: scale(1.5,1.5);
+}
